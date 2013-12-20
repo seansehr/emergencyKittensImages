@@ -1,0 +1,9 @@
+doctype 5
+html(data-ng-app='emergencyKitten')
+  head
+    title= title
+    link(rel='stylesheet', href='/css/app.css')
+  body(data-ng-controller='mainController')
+    h1= title
+    section.container(data-ng-view='' data-masonry='')
+    script(src="/js/combined.js")
